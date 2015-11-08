@@ -24,5 +24,6 @@ public class JSONSample {
         obj.put("is_vip", new Boolean(true));
 
         System.out.print(obj);
+        System.out.print("DONE");
     }
 }
