@@ -9,6 +9,8 @@ import org.json.JSONObject;
 public class JSONSample {
     public static void main(String[] args) {
 
+        System.out.print("Hello World");
+
         JSONSample instance = new JSONSample();
 
         instance.run();
@@ -16,14 +18,14 @@ public class JSONSample {
 
     private void run() {
 
-        JSONObject obj = new JSONObject();
+        //JSONObject obj = new JSONObject();
 
-        obj.put("name", "foo");
-        obj.put("num", new Integer(100));
-        obj.put("balance", new Double(1000.21));
-        obj.put("is_vip", new Boolean(true));
+        //obj.put("name", "foo");
+        //obj.put("num", new Integer(100));
+        //obj.put("balance", new Double(1000.21));
+        //obj.put("is_vip", new Boolean(true));
 
-        System.out.print(obj);
+        //System.out.print(obj);
         System.out.print("DONE");
     }
 }
