@@ -18,6 +18,13 @@ public class JSONSample {
         JSONSample instance = new JSONSample();
 
         instance.run();
+
+        System.out.println("########################################################");
+        System.out.println("##                                                    ##");
+        System.out.println("## END                                                ##");
+        System.out.println("##                                                    ##");
+        System.out.println("########################################################");
+
     }
 
     private void run() {
