@@ -3,9 +3,6 @@ package com.relsulla.sample;
 
 import org.json.JSONObject;
 
-/**
- * Created by Bob on 11/7/2015.
- */
 public class JSONSample {
     public static void main(String[] args) {
 
@@ -37,7 +34,7 @@ public class JSONSample {
         obj.put("name", "foo");
         obj.put("num", new Integer(100));
         obj.put("balance", new Double(1000.21));
-        obj.put("is_vip", new Boolean(true));
+        obj.put("is_vip", Boolean.TRUE);
 
         System.out.print(obj);
         System.out.println("\nDONE");
