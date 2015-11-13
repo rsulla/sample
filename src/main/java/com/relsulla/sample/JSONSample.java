@@ -25,7 +25,7 @@ public class JSONSample {
         System.out.println("##                                                    ##");
         System.out.println("########################################################");
 
-        System.out.println("Jenkin Test");
+        System.out.println("Jenkins Test");
     }
 
     private void run() {
